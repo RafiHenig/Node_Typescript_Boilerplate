@@ -1,2 +1,3 @@
 node_modules
-dict
+build*
+src/db/config.json

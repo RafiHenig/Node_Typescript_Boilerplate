@@ -11,10 +11,10 @@ const port = 3000;
 
 
 app.get('', async (req: Request, res: Response) => {
-    res.sendFile(__dirname + 'index/index.html');
+  res.sendFile(__dirname + 'index/index.html');
 })
 
-app.get('/api/requestPage', async (req: Request, res: Response) => {})
+app.get('/api/requestPage', async (req: Request, res: Response) => { })
 
 
 app.listen(port, ƒ => console.log(`app listening on port ${port}`))
